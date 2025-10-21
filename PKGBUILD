@@ -1,6 +1,6 @@
 pkgname=python-psutil
-pkgver=7.0.0
-pkgrel=1
+pkgver=7.1.1
+pkgrel=2
 pkgdesc="A cross-platform process and system utilities module for Python"
 arch=('x86_64')
 url="https://github.com/giampaolo/psutil"
@@ -13,7 +13,7 @@ makedepends=(
     'python-wheel'
 )
 source=(https://github.com/giampaolo/psutil/archive/release-${pkgver}/${pkgname#*-}-release-${pkgver}.tar.gz)
-sha256sums=(a3c736187215d1f94ebe18ee6b14202d1b89c165c2eaad159f55cdfb494f7a1c)
+sha256sums=(ace52509be7b62d25b88d1eb2db997898b74c79fdecbaadab304bbd4a54e2068)
 
 build() {
     cd ${pkgname#*-}-release-${pkgver}
